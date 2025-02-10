@@ -1,19 +1,13 @@
-# speech-emotion-recognition
+# Speech Emotion Recognition (SER)
 
-#### First, lets define SER i.e. Speech Emotion Recognition.
-* Speech Emotion Recognition, abbreviated as SER, is the act of attempting to recognize human emotion and affective states from speech. This is capitalizing on the fact that voice often reflects underlying emotion through tone and pitch. This is also the phenomenon that animals like dogs and horses employ to be able to understand human emotion.
+This project focuses on Speech Emotion Recognition (SER), analyzing voice data rather than just words. The same words can be spoken with different tones, conveying vastly different emotions.
 
-#### Why we need it?
+Using deep learning and signal processing techniques, this project aims to classify emotions from speech audio data. Potential applications include human-computer interaction, sentiment analysis, and mental health monitoring.
 
-1. Emotion recognition is the part of speech recognition which is gaining more popularity and need for it increases enormously. Although there are methods to recognize emotion using machine learning techniques, this project attempts to use deep learning to recognize the emotions from data.
+### Features
 
-2. SER(Speech Emotion Recognition) is used in call center for classifying calls according to emotions and can be used as the performance parameter for conversational analysis thus identifying the unsatisfied customer, customer satisfaction and so on.. for helping companies improving their services
+- Preprocessing of speech data (MFCC, Mel spectrograms, etc.)
 
-3. It can also be used in-car board system based on information of the mental state of the driver can be provided to the system to initiate his/her safety preventing accidents to happen
+- Deep learning models for emotion classification
 
-#### Datasets used in this project
-
-* Crowd-sourced Emotional Mutimodal Actors Dataset (Crema-D)
-* Ryerson Audio-Visual Database of Emotional Speech and Song (Ravdess)
-* Surrey Audio-Visual Expressed Emotion (Savee)
-* Toronto emotional speech set (Tess)
+- Visualization of audio features and model performance
